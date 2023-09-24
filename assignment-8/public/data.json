@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "picture": "https://ebook.projectbd.com/wp-content/uploads/2023/09/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#0052FF",
+      "card_bg": "#0052ff26",
+      "text_button_bg": "#0052ff33",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 249.99
+    },
+    {
+      "id": 2,
+      "picture": "https://ebook.projectbd.com/wp-content/uploads/2023/09/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "#F87147",
+      "card_bg": "#ff444a26",
+      "text_button_bg": "#ff444a33",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 329.99
+    },
+    {
+      "id": 3,
+      "picture": "https://ebook.projectbd.com/wp-content/uploads/2023/09/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79C23F",
+      "card_bg": "#79c23f26",
+      "text_button_bg": "#79c23f33",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "price": 299.99
+    },
+    {
+      "id": 4,
+      "picture": "https://ebook.projectbd.com/wp-content/uploads/2023/09/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#F87147",
+      "card_bg": "#f8834726",
+      "text_button_bg": "#f8834733",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "price": 239.99
+    },
+    {
+      "id": 5,
+      "picture": "https://ebook.projectbd.com/wp-content/uploads/2023/09/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#F87147",
+      "card_bg": "#f8834726",
+      "text_button_bg": "#f8834733",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": 279.99
+    },
+    {
+      "id": 6,
+      "picture": "https://ebook.projectbd.com/wp-content/uploads/2023/09/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79C23F",
+      "card_bg": "#79c23f26",
+      "text_button_bg": "#79c23f33",
+      "description": "Amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 219.99
+    },
+    {
+      "id": 7,
+      "picture": "https://ebook.projectbd.com/wp-content/uploads/2023/09/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "#F87147",
+      "card_bg": "#ff444a26",
+      "text_button_bg": "#ff444a33",
+      "description": "Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "price": 349.99
+    },
+    {
+      "id": 8,
+      "picture": "https://ebook.projectbd.com/wp-content/uploads/2023/09/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#0052FF",
+      "card_bg": "#0052ff26",
+      "text_button_bg": "#0052ff33",
+      "description": "Dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "price": 279.99
+    },
+    {
+      "id": 9,
+      "picture": "https://ebook.projectbd.com/wp-content/uploads/2023/09/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#0052FF",
+      "card_bg": "#0052ff26",
+      "text_button_bg": "#0052ff33",
+      "description": "Cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": 229.99
+    },
+    {
+      "id": 10,
+      "picture": "https://ebook.projectbd.com/wp-content/uploads/2023/09/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "#F87147",
+      "card_bg": "#ff444a26",
+      "text_button_bg": "#ff444a33",
+      "description": "Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore et magna aliqua.",
+      "price": 269.99
+    },
+    {
+      "id": 11,
+      "picture": "https://ebook.projectbd.com/wp-content/uploads/2023/09/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79C23F",
+      "card_bg": "#79c23f26",
+      "text_button_bg": "#79c23f33",
+      "description": "Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "price": 249.99
+    },
+    {
+      "id": 12,
+      "picture": "https://ebook.projectbd.com/wp-content/uploads/2023/09/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#F87147",
+      "card_bg": "#f8834726",
+      "text_button_bg": "#f8834733",
+      "description": "Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "price": 299.99
+    }
+  ]
+  
