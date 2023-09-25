@@ -1,8 +1,8 @@
-
+import {Link} from "react-router-dom";
 const Cards = ({card}) => {
 
  const {id, picture, title, category, category_bg, card_bg, text_button_bg} = card || {}
-console.log(category_bg);
+
     return (
         
             <div>
@@ -16,9 +16,9 @@ console.log(category_bg);
                 {category}
                  
             </a>
-            <a href="#">
+            <Link to={`/cardDetails/${id}`}>
                 <h5 style={{color:category_bg, fontWeight:"bold"}} className={`mb-2 text-lg font-extrabold]`}>{title}</h5>
-            </a>
+            </Link>
             
             
         </div>

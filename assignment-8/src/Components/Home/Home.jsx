@@ -14,7 +14,7 @@ const cards = useLoaderData()
 //       .then(data=>setCards(data.cards))
 // },[])
     return (
-        <div key={cards.id}> 
+        <div> 
             <div className="banner">              
   <img className="banner-background" src="https://ebook.projectbd.com/wp-content/uploads/2023/09/fc1f79e18cdc1a12320b9b10ec3e253d.jpeg" alt="Banner Background"/>
   <div className="banner-content">
