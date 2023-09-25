@@ -30,7 +30,7 @@ setAppliedDonations(donationDone);
 
 
     }
-},[])
+},[donations])
     return (
         <div>
 <div key={appliedDonations.id} className="md: grid grid-cols-2 gap-5 px-20 mt-14">

@@ -26,7 +26,7 @@ const cards = useLoaderData()
   </div>
 </div>
 {/* Hero section ends here ==================*/}
-<div className="md: grid grid-cols-4 gap-4 px-14 mt-14">
+<div className="md: grid grid-cols-4 gap-4 px-14 mt-14 pb-9">
 {cards.map(card => <Cards key={card.id} card={card}></Cards>)
             }
 </div>

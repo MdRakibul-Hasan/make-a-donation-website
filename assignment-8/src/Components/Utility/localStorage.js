@@ -15,7 +15,7 @@ if(!exists){
     localStorage.setItem('Donation-data', JSON.stringify(storedDonationDatas))
     
 }
-// console.log(storedDonationDatas)
+// const myNeed = (storedDonationDatas.length)
 }
 
 export {saveDonation}
