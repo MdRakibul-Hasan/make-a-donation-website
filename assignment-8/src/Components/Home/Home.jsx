@@ -1,17 +1,17 @@
 import {useLoaderData} from "react-router-dom";
 import './Home.css';
-import { useEffect, useState } from "react";
 import Cards from "./Cards";
+import { useEffect, useState } from "react";
 
 const Home = () => {
 const cards = useLoaderData()
-
 // const [cards,setCards] = useState([])
 
 // useEffect(()=> {
 //       fetch(`data.json`)
 //       .then(res=>res.json())
 //       .then(data=>setCards(data.cards))
+//       console.log(data);
 // },[])
     return (
         <div> 
@@ -27,13 +27,15 @@ const cards = useLoaderData()
 </div>
 {/* Hero section ends here ==================*/}
 <div className="md: grid grid-cols-4 gap-4 px-14 mt-14">
-{cards.map(card => <Cards key={cards.id} card={card}></Cards>)
+{cards.map(card => <Cards key={card.id} card={card}></Cards>)
             }
 </div>
 
          
         </div>
+        
     );
+    
 };
 
 export default Home;

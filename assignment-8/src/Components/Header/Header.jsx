@@ -1,5 +1,6 @@
-import {Link} from "react-router-dom";
+
 import {Outlet} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 const Header = () => {
     return (
@@ -9,10 +10,15 @@ const Header = () => {
 
                 <div>
                     <ul className="flex gap-8">
-                    <li><Link to="/">Home</Link></li>
-                        <li><Link to="/donation">Donation</Link></li>
-                        <li><Link to="/statistics">Statistics</Link></li>
+                    <li><NavLink to="/" className={({isActive, isPending})=>
+                isPending ? "pending" : isActive ? "text-red-600 underline" : ""}>Home</NavLink></li>
+                <li><NavLink to="/donation" className={({isActive, isPending})=>
+                isPending ? "pending" : isActive ? "text-red-600 underline" : ""}>Donation</NavLink></li>
+                <li><NavLink to="/statistics" className={({isActive, isPending})=>
+                isPending ? "pending" : isActive ? "text-red-600 underline" : ""}>Statistics</NavLink></li>
+
                     </ul>
+                    
                 </div>
             </nav>
             <Outlet></Outlet> 

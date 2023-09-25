@@ -7,7 +7,7 @@ const Cards = ({card}) => {
         
             <div>
     
-    <div style={{background:card_bg}} className="max-w-sm border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <Link to={`/cardDetails/${id}`}><div style={{background:card_bg}} className="max-w-sm border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
             <img className="rounded-t-lg" src={picture} alt="" />
         </a>
@@ -16,13 +16,13 @@ const Cards = ({card}) => {
                 {category}
                  
             </a>
-            <Link to={`/cardDetails/${id}`}>
+            
                 <h5 style={{color:category_bg, fontWeight:"bold"}} className={`mb-2 text-lg font-extrabold]`}>{title}</h5>
-            </Link>
+            
             
             
         </div>
-    </div>
+    </div></Link>
     
     </div>
         

@@ -13,6 +13,7 @@ import Header from './Components/Header/Header';
 import Details from './Components/Details/Details';
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,11 +25,13 @@ const router = createBrowserRouter([
       loader: ()=>fetch(`data.json`)
     },
     {path: "/donation",
-      element: <Donation></Donation>
+      element: <Donation></Donation>,
+      loader: () => fetch('/data.json')
     },
+
       {path: "/cardDetails/:id",
       element: <Details></Details>,
-      loader: () => fetch('data.json')
+      loader: () => fetch(`data.json`)
     },
     {
       path: "/statistics",
