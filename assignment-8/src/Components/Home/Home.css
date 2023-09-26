@@ -70,6 +70,11 @@
   background-color: #d31c22; /* Adjust the button hover background color */
 }
 
-  
+@media (min-width: 640px) { 
+  .banner-content h1 {
+    text-align:center;
+    
+  }
+}
 
   

@@ -53,7 +53,7 @@ const statistics = () => {
       </Pie>
     </PieChart>
         </div>
-        <div className="flex flex-row justify-center gap-6 -mt-14 items-center align-middle">
+        <div className="md:flex flex-row justify-center gap-6 -mt-14 items-center align-middle max-md:flex flex-wrap">
         <div className="flex flex-row justify-center gap-3 items-center"> 
         <p>Your Donation </p> <div style={{height:"12px", background:"#00C49F", width:"80px"}}><hr style={{height:"3px", borderColor:"#00C49F"}} /></div> 
         <br />

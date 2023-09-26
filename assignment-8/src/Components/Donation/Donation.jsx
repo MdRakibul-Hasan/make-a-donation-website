@@ -33,7 +33,7 @@ setAppliedDonations(donationDone);
 },[donations])
     return (
         <div>
-<div key={appliedDonations.id} className="md: grid grid-cols-2 gap-5 px-20 mt-14">
+<div key={appliedDonations.id} className="md: grid grid-cols-2 gap-5 px-20 mt-14 max-lg:flex flex-wrap space-y-4">
 {appliedDonations.slice(0, dataLength).map(donationdonecard => <DonationCard key={donationdonecard.id} donationdonecard={donationdonecard}></DonationCard>)
             }
 </div>
