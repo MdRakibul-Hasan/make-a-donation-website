@@ -66,7 +66,7 @@ return (
       </div>
     </div>
 
-    <div className="md:grid grid-cols-4 gap-4 px-14 mt-14 pb-9 sm:flex flex-wrap space-y-4">
+    <div className="md:grid grid-cols-4 gap-4 px-14 mt-14 pb-9 max-lg:flex flex-wrap">
         {searchResults.length === 0
           ? cards.map((card) => <Cards key={card.id} card={card}></Cards>)
           : searchResults.map((card) => (

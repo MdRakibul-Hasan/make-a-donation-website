@@ -1,8 +1,10 @@
-# React + Vite
+# 3 project features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-Dynamic Routing and Filtering: 
+The project shows dynamic routing using React Router, allowing users to navigate to different donation categories and view specific donation details. Additionally, the search functionality enables users to filter donations by category name, providing an efficient way to find relevant donation options.
 
-Currently, two official plugins are available:
+-Donation Management: 
+Users can interact with donation cards by adding them to donation routes. The project also ensure that the same donation card cannot be donated twice, ensuring proper management and tracking of donations. This feature simplifies the donation process and avoids duplicate donations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Statistics and Visualization: 
+The project provides valuable information through a pie chart that displays total donation and donation left statistics. Users can easily visualize the distribution of available donations across various categories. This feature creates transparency and helps donors to make informed decisions by this chart.
