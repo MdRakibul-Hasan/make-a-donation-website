@@ -16,7 +16,7 @@ const idInt = parseInt(id);
 const DonationDetail = details.find(DonationDetail => DonationDetail.id === idInt);
 
 
-const {image_high, title, category, category_bg, card_bg, text_button_bg, description, price} = DonationDetail || {}
+const {image_high, title, category_bg, description, price} = DonationDetail || {}
 
 const handleclick = () => {
 
@@ -56,6 +56,7 @@ return (
         </div>
     </div>
 </div>
+<div className="text-2xl font-extrabold ml-32 pb-3"><h2>{title}</h2></div>
 <div className="w-[80%] m-auto pb-24"><h5>{description}</h5></div>
 
         </div>

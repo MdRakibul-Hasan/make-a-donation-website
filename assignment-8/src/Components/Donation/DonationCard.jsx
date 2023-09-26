@@ -1,4 +1,4 @@
-
+import {Link} from "react-router-dom";
 const DonationCard = ({donationdonecard}) => {
     const {id, image_square, title, category, category_bg, card_bg, text_button_bg, price} = donationdonecard || {}
     return (
@@ -11,9 +11,9 @@ const DonationCard = ({donationdonecard}) => {
             </div>
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
         <p style={{color:category_bg}} className="mb-3 font-normal text-gray-700 dark:text-gray-400">${price}</p>
-        <a href="#" style={{background:category_bg, color:"#ffffff", alignSelf: "flex-start"}} className={`inline-flex items-center px-4 py-2 text-sm font-medium text-center}] text-white  rounded-md`}>
+        <Link to={`/cardDetails/${id}`}style={{background:category_bg, color:"#ffffff", alignSelf: "flex-start"}} className={`inline-flex items-center px-4 py-2 text-sm font-medium text-center}] text-white  rounded-md`}>
         View Details          
-            </a>
+            </Link>
     </div>
 </div>
         </div>

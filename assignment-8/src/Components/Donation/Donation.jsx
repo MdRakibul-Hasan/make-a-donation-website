@@ -37,12 +37,13 @@ setAppliedDonations(donationDone);
 {appliedDonations.slice(0, dataLength).map(donationdonecard => <DonationCard key={donationdonecard.id} donationdonecard={donationdonecard}></DonationCard>)
             }
 </div>
-<div className="flex flex-row justify-center align-middle items-center py-14">
+<div className={dataLength === appliedDonations.length && 'hidden'}>
+    <div className="flex flex-row justify-center align-middle items-center py-14 pb-28">
     <button
     onClick={() => setDataLength(appliedDonations.length)}
     className="bg-[#009444] text-white py-1 px-4 rounded-md">See All</button>
-</div>
-
+</div></div>
+<div className="pb-28"></div>
         </div>
     );
 };

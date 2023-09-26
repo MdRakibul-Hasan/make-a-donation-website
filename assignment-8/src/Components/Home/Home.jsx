@@ -2,8 +2,21 @@ import {useLoaderData} from "react-router-dom";
 import { useState } from "react";
 import './Home.css';
 import Cards from "./Cards";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Home = () => {
+
+const notify = () => toast.error('No results found. Please try a different search.', {
+  position: "top-center",
+  autoClose: 4000,
+  hideProgressBar: false,
+  closeOnClick: true,
+  pauseOnHover: true,
+  draggable: true,
+  progress: undefined,
+  theme: "light",
+  });
 const cards = useLoaderData()
 const [search,setSearch] = useState('');
 const [searchResults, setSearchResults] = useState([]);
@@ -15,7 +28,9 @@ const [searchResults, setSearchResults] = useState([]);
 
 
   if (results.length === 0) {
-    alert(' No results found. Please try a different search.')
+    // alert(' No results found. Please try a different search.')
+    notify();
+   
   } 
 
   setSearchResults(results);
@@ -29,6 +44,7 @@ const handleKeyPress = (e) => {
 
 return (
   <div>
+     <ToastContainer />
     <div className="banner">
       <img
         className="banner-background"

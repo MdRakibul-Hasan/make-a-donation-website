@@ -11,6 +11,7 @@ import Donation from './Components/Donation/Donation';
 import Statistics from './Components/Statistics/statistics';
 import Header from './Components/Header/Header';
 import Details from './Components/Details/Details';
+import ErrorPage from './Components/ErrorPage/ErrorPage';
 
 
 
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Header></Header>,
+    errorElement: <ErrorPage></ErrorPage>,
 
     children: [
       {path: "/",
