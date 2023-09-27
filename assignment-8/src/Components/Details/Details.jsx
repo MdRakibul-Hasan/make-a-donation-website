@@ -9,7 +9,7 @@ import {getStoredDonationData} from "../Utility/localStorage";
 
 
 const Details = () => {
-    // const [appliedDonations, setAppliedDonations] = useState([]);   
+  
 const details = useLoaderData()
 const {id} = useParams();
 const idInt = parseInt(id);
